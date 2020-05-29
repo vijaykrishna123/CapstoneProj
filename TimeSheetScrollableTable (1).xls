@@ -1,0 +1,3562 @@
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+    
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html dir="ltr" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="application/vnd.ms-excel; charset=UTF-8">
+<meta name=ProgId content=Excel.Sheet>
+<TITLE>Export Time Sheet</TITLE>
+<style>
+<!--table
+    {mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";}
+.xLongDate
+	{mso-number-format:"Long Date";}
+.xLongDateTime
+	{mso-number-format:"General Date";}			
+.xText
+	{mso-number-format:"\@";}	
+.xDate
+    {mso-number-format:"\@";}	
+ br {mso-data-placement:same-cell;}
+
+-->
+</style>
+<BASE TARGET="_blank">
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Export Time Sheet</x:Name>
+    <x:WorksheetOptions>
+     <x:Selected/>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="47" align="center">
+      <b>
+        Vijay Krishna Nimmagadda - Time Sheet for 4/1/20 - 4/30/20 <span class="pagetitle-secondary">
+              (Closed)
+            </span>
+      </b>
+    </td>
+  </tr>
+</table>
+
+
+
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <table width="100%">
+<tr>
+	<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="7" rowspan="2">
+                
+            
+            
+			<b>Item</b>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="3" rowspan="2">
+                
+            
+            
+			<b>Status</b>
+
+		</td>
+	    
+	    
+		</tr>
+    </table>
+		</td>
+	<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Wed<br/>4/1
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Thu<br/>4/2
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Fri<br/>4/3
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Sat<br/>4/4
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Sun<br/>4/5
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Mon<br/>4/6
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Tue<br/>4/7
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Wed<br/>4/8
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Thu<br/>4/9
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Fri<br/>4/10
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Sat<br/>4/11
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Sun<br/>4/12
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Mon<br/>4/13
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Tue<br/>4/14
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Wed<br/>4/15
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Thu<br/>4/16
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Fri<br/>4/17
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Sat<br/>4/18
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Sun<br/>4/19
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Mon<br/>4/20
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Tue<br/>4/21
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Wed<br/>4/22
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Thu<br/>4/23
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Fri<br/>4/24
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Sat<br/>4/25
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Sun<br/>4/26
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Mon<br/>4/27
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Tue<br/>4/28
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Wed<br/>4/29
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="2">
+                
+            
+            
+			Thu<br/>4/30
+
+		</td>
+	    
+	    
+		</tr>
+    </table>
+		</td>
+	<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="2" rowspan="2">
+                
+            
+            
+			<b>Total</b>
+
+		</td>
+	    
+	    
+		</tr>
+    </table>
+		</td>
+	</tr> 
+
+
+	<tr>
+<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="7" rowspan="1">
+                
+            
+            
+			<div style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">MS-Creative Workbench<br>Project: 85225</div>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="3" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="7" rowspan="1">
+                
+            
+            
+			<div style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"><a href="https://ppmprod.capitalgroup.rpsaas.com/itg/project/ViewTask.do?taskId=934200" onmouseover="HoverText.showText(event, 'Prj: MS-Creative Workbench', this);" onmouseout="HoverText.hide();">Prj: MS-Creative Workbench</a></div>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="3" rowspan="1">
+                
+            
+            
+			Closed
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="7" rowspan="1">
+                
+            
+            
+			Misc -
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="3" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="7" rowspan="1">
+                
+            
+            
+			<div style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">Misc: ITG-Non-Billable (Contractors Only)</div>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="3" rowspan="1">
+                
+            
+            
+			Closed
+
+		</td>
+	    
+	    
+		</tr>
+    </table>
+		</td>
+	<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			8.00
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			0.00
+
+		</td>
+	    
+	    
+		</tr>
+    </table>
+		</td>
+	<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="2" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			<td colspan="2" rowspan="1"> <table width="100%"><tr>
+		    
+                
+                
+                    <td>
+                
+            
+            
+            
+			<span id='witotal_PROJECT_934200'>168.00</span>
+
+		</td>
+	    
+                
+                
+                    <td>
+                
+            
+            
+            
+			<input type="hidden" name="workItemId" value="PROJECT_934200" id="workItemId">
+
+		</td>
+	    
+	    <td width=100%>&nbsp;</td></tr></table></td>
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="2" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			<td colspan="2" rowspan="1"> <table width="100%"><tr>
+		    
+                
+                
+                    <td>
+                
+            
+            
+            
+			<span id='witotal_MISC_12'>0.00</span>
+
+		</td>
+	    
+                
+                
+                    <td>
+                
+            
+            
+            
+			<input type="hidden" name="workItemId" value="MISC_12" id="workItemId">
+
+		</td>
+	    
+	    <td width=100%>&nbsp;</td></tr></table></td>
+		</tr>
+    </table>
+		</td>
+	</tr> 
+
+
+	<tr>
+<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="7" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="17" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    </table>
+		</td>
+	<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_0'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_1'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_2'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_3'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_4'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_5'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_6'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_7'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_8'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_9'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_10'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_11'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_12'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_13'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_14'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_15'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_16'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_17'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_18'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_19'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_20'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_21'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_22'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_23'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_24'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_25'>0.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_26'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_27'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_28'>8.00</span>
+
+		</td>
+	    
+	    
+		
+			
+		    
+            
+                
+                
+                    <td colspan="1" rowspan="1">
+                
+            
+            
+			<span id='ptotal_29'>8.00</span>
+
+		</td>
+	    
+	    
+		</tr>
+    <tr>
+		
+			
+		    
+            
+                
+                
+                    <td colspan="30" rowspan="1">
+                
+            
+            
+			&nbsp;
+
+		</td>
+	    
+	    
+		</tr>
+    </table>
+		</td>
+	<td>
+			
+
+<table width="100%">
+	<tr>
+		
+			<td colspan="2" rowspan="1"> <table width="100%"><tr>
+		    
+                
+                
+                    <td>
+                
+            
+            
+            
+			<span id='total'>168.00</span>
+
+		</td>
+	    
+                
+                
+                    <td>
+                
+            
+            
+            
+			<input type="hidden" name="DUMMY1" value="DUMMY1_VALUE" id="DUMMY1">
+
+		</td>
+	    
+                
+                
+                    <td>
+                
+            
+            
+            
+			<input type="hidden" name="DUMMY2" value="DUMMY2_VALUE" id="DUMMY2">
+
+		</td>
+	    
+	    <td width=100%>&nbsp;</td></tr></table></td>
+		</tr>
+    </table>
+		</td>
+	</tr>
+
+</table>
+ <script>
+	// install tab control for the middle table	
+	document.getElementById("wiTable_middleDataDiv").onmouseover = function(e) {
+		//sync scroll for onmouseover event, from dat#198976
+		dataTable.synchScrollOnTab("wiTable");
+	}
+	document.getElementById("wiTable_middleDataDiv").onclick = function(e) {
+		//sync scroll for onclick event, from dat#198976
+		dataTable.synchScrollOnTab("wiTable");
+	}
+		
+	document.getElementById("wiTable_middleDataDiv").onkeyup = function(e) {
+		if (!e) {
+			e = window.event;
+		}
+	
+		if (e) {
+			switch(e.keyCode) {
+				case(9): // tab key
+					if (e.srcElement) {
+						e.srcElement.focus();
+					}
+					// synch scrolling
+					dataTable.synchScrollOnTab("wiTable");
+					break;
+			}
+		}
+	}
+
+	var resizing_wiTable = false;  // prevents an infinite loop
+	
+    // we need to store width attributes for calculation
+    var totalTableWidth_wiTable = ;
+    var middleDivWidth_wiTable = ;
+    var leftDivWidth_wiTable = ;
+    var rightDivWidth_wiTable = ;
+    var middleTableWidth_wiTable = ;
+    		
+	function adjustTableWidth_wiTable() { 
+		// if we are in a dialog, don't do any resizing.
+		var menu = document.getElementById('ppmmenu');
+		var windoidTable = document.getElementById('windoidMainTable');
+		if (menu == null && windoidTable == null) {
+			return;
+		}
+		var windowWidth = document.body.clientWidth;
+		var frameWidth = parseInt(windowWidth);
+		if (frameWidth > 0) {
+			// check if we should span 100%
+			var spanAll = (totalTableWidth_wiTable > frameWidth);
+
+			var mainTable = document.getElementById('wiTable_mainTable');
+			var middleHeaderDiv = document.getElementById('wiTable_middleHeaderDiv');
+			var middleDataDiv = document.getElementById('wiTable_middleDataDiv');
+			var middleTotalDiv = document.getElementById('wiTable_middleTotalDiv');
+			
+			if (spanAll || false) {
+				// shrink the scrollable divs to 0, so that the mainTable can shrink and give us an accurate value for clientWidth
+			    if (middleHeaderDiv != null) { 
+			      middleHeaderDiv.style.width = '0px';
+			    }
+			    if (middleDataDiv != null) {
+			      middleDataDiv.style.width = '0px';
+			    }
+			    if (middleTotalDiv != null) {
+			      middleTotalDiv.style.width = '0px';
+			    }
+				// calculate the desired width of the scrollable div.  
+				// set the main table to span the entire width, then figure out how many pixels are left for the middle
+				if (mainTable != null) mainTable.style.width = '100%';
+
+			    var availableWidth = mainTable.clientWidth - leftDivWidth_wiTable - rightDivWidth_wiTable;
+			    var lDataDiv = 	document.getElementById('wiTable_leftDataDiv');
+			    var rDataDiv = 	document.getElementById('wiTable_rightDataDiv');	    	
+			    if (lDataDiv && rDataDiv) {
+			    	availableWidth = mainTable.clientWidth - lDataDiv.clientWidth - rDataDiv.clientWidth;
+			    }
+			    
+			    if (availableWidth >= 0) {
+			    	if (middleHeaderDiv != null) middleHeaderDiv.style.width = availableWidth;
+			    	if (middleDataDiv != null) middleDataDiv.style.width = availableWidth;
+			    	if (middleTotalDiv != null) middleTotalDiv.style.width = availableWidth;
+			    }
+				if (typeof(scrollableTable_callBackSpanAll)!="undefined"){
+					scrollableTable_callBackSpanAll();
+				}
+			} else {
+			    var widthToSet = middleDivWidth_wiTable;
+			    // we're assuming 25px is the page margin here...
+			    var availableWidth = frameWidth - leftDivWidth_wiTable - rightDivWidth_wiTable - 50;
+			    if (widthToSet < availableWidth) {
+			        widthToSet = availableWidth;
+			    }
+			    if (widthToSet > middleTableWidth_wiTable) {
+			        widthToSet = middleTableWidth_wiTable;
+			    }
+			    widthToSet = widthToSet + 'px';
+    
+			    if (mainTable != null) mainTable.style.width = '0px';
+			    if (middleHeaderDiv != null) middleHeaderDiv.style.width = widthToSet;
+			    if (middleDataDiv != null) middleDataDiv.style.width = widthToSet;
+			    if (middleTotalDiv != null) middleTotalDiv.style.width = widthToSet;
+			    
+			    if (typeof(scrollableTable_callBackDeSpanAll)!="undefined"){
+			    	scrollableTable_callBackDeSpanAll();
+			    }
+			}
+        }
+    }
+	var oldResize_wiTable = window.onresize;
+	
+	var scrollableTable_scrollBarWidth =  ;
+	// adjust width on resize of window	
+    window.onresize = function() {
+        adjustTableWidth_wiTable();
+        if (oldResize_wiTable != null && !resizing_wiTable) {
+            resizing_wiTable = true;
+            oldResize_wiTable();            
+        }
+        resizing_wiTable = false;
+    };
+
+    // we need the resize to happen during onload because IE does not provide the clientWidth property until the page is rendered
+    var oldOnload_wiTable = window.onload;
+    
+    window.onload = function() {
+        if (typeof(scrollableTable_getScrollBarWidth)!="undefined"){
+        	scrollableTable_scrollBarWidth = scrollableTable_getScrollBarWidth();
+        	
+        }
+        adjustTableWidth_wiTable();
+        if (oldOnload_wiTable != null) {
+            oldOnload_wiTable();            
+        }
+    };
+	
+</script>
+
+
+
+
+
+
+
+
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="47" align="center">
+      Exported on: May 29, 2020 9:43:11 AM PDT
+    </td>
+  </tr>
+</table>
+
+ 
+</body></html>
