@@ -1,0 +1,156 @@
+1. "what is JavaScript?", 
+JavaScript is the programming language of HTML and the Web.
+ 1. HTML to define the content of web pages
+
+   2. CSS to specify the layout of web pages
+
+   3. JavaScript to program the behavior of web pages
+
+2. "what does it look like?",
+
+function createParagraph() {
+  let para = document.createElement('p');
+  para.textContent = 'You clicked the button!';
+  document.body.appendChild(para);
+}
+<button onclick="createParagraph()">Click me!</button>
+
+ 3. and "what can it do? use?",
+
+JavaScript is used to create responsive, interactive elements for web pages, enhancing the user experience 
+ 
+ JavaScript to program the behavior of web pages
+ 
+ 4. key JavaScript features such as variables, strings, numbers, and arrays.
+ 
+JavaScript strings are used for storing and manipulating text.
+ 
+ var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+
+ JavaScript variables are containers for storing data values. All JavaScript variables must be identified with unique names. These unique names are called identifiers.
+ var x = 5;
+var y = 6;
+var z = x + y;
+
+JavaScript has only one type of number. Numbers can be written with or without decimals.
+
+var x = 3.14;    // A number with decimals
+var y = 3;       // A number without decimals
+
+
+JavaScript arrays are used to store multiple values in a single variable. Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
+var cars = ["Saab", "Volvo", "BMW"];
+
+React.js-->
+
+What is ReactJS
+
+A JavaScript library for building user interfaces
+
+building blocks of React apps: elements and components. 
+
+Elements are the smallest building blocks of React apps. An element describes what you want to see on the screen:  const element = <h1>Hello, world</h1>;
+
+React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
+
+const element = <h1>Hello, world!</h1>;
+
+JSX? JSX produces React “elements”.
+
+Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+
+components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+
+
+Function and Class Components: The simplest way to define a component is to write a JavaScript function:
+
+
+Angular
+
+Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. 
+
+It implements core and optional functionality as a set of TypeScript libraries that you import into your apps.
+
+The basic building blocks are NgModules, which provide a compilation context for components.
+
+Angular app is defined by a set of NgModules
+ An app always has at least a root module that enables bootstrapping, and typically has many more feature modules.
+ 
+ 
+1.Components define views, which are sets of screen elements that Angular can choose among and modify according to your program logic and data.
+
+Components use services, which provide specific functionality not directly related to views.
+ Service providers can be injected into components as dependencies, making your code modular, reusable, and efficient.
+ 
+ 
+2. An NgModule declares a compilation context for a set of components that is dedicated to an application domain, 
+a workflow, or a closely related set of capabilities. An NgModule can associate its components with related code, such as services, to form functional units.
+
+
+
+MongoDB
+
+MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
+
+MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
+
+MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time
+
+The document model maps to the objects in your application code, making data easy to work with
+
+Ad hoc queries, indexing, and real time aggregation provide powerful ways to access and analyze your data
+
+MongoDB is a distributed database at its core, so high availability, horizontal scaling, and geographic distribution are built in and easy to use
+
+MongoDB is free to use. Versions released prior to October 16, 2018 are published under the AGPL. All versions released after October 16, 2018, including patch fixes for prior versions, are published under the Server Side Public License (SSPL) v1.
+
+
+
+Express.js--
+Fast, unopinionated, minimalist web framework for Node.js 
+ provides a robust set of features for web and mobile applications.
+ 
+ 
+ node.js
+ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine 12.18.0
+ compiles the JavaScript directly into the native machine code. lightweight framework used for creating server-side web applications
+ and extends JavaScript API to offer usual server-side functionalities
+ 
+ Adva:  fast in code execution, Asynchronous, Scalable, open source, no buffering--output data in chunks never buffer data.
+ 
+ It is generally used for large-scale application development, especially for video streaming sites Netflixes, single page application, and other web applications.
+ 
+ trello, Paypal, uber
+ 
+ All ECMAScript 2015 (ES6) features are split into three groups for shipping, staged, and in progress features:
+ 
+ Contributing
+Stability Index
+JSON Output
+System calls and man pages
+
+
+
+Node.js functions which wrap a system call will document that. The docs link to the corresponding man pages which describe how the system call works.
+
+Most Unix system calls have Windows analogues. Still, behavior differences may be unavoidable.
+
+
+Node.js, the server-side scripting tool, uses JavaScript
+
+Interpreter and environment for JavaScript 
+Used for accessing or performing any non-blocking operation of any operating system
+
+
+----
+
+HTML is the standard markup language for Web pages.
+
+With HTML you can create your own Website.
+
+
+
+
+
+
