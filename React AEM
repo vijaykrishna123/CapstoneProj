@@ -1,0 +1,310 @@
+React and AEM Integration Guide
+
+Pre-requisites:
+
+The following should be installed:
+
+JDK (Preferred 1.8)
+Maven (Preferred Latest version/ 3.6 or above)
+AEM Jar File (6.4 and above)
+Core Components Package 2.5 version (optional)
+Service Pack 3.2, 3.3 (optional)
+js v10+
+npm 6+
+Start by double checking that the above tools have been installed and available via the command line path. Open up a new terminal and run the following commands:
+
+java -version
+mvn -version
+node --version
+npm –version
+Integrated Development Environments:
+
+Popular IDEs like Eclipse, IntelliJ, and Visual Studio code can be used when developing with AEM.
+
+We will be using predefined project for this tutorial. Download the following ZIP file and unzip locally
+
+Inspecting the Project:
+
+There are five areas in the project that we have downloaded as follows –
+
+Parent POM - deploys maven modules and manages dependency versions
+core – Contains java bundles
+apps – Contains apps project configurations, clientlibs, components etc.
+content – Contains structure content.
+react-app – Contains react app created using “create-react-app” library.
+ 
+
+Step 1-  Start AEM
+
+Create folder AEM C:\AEM and place AEM jar file and double click on AEM jar file.
+
+If it is not starting on double click, then you can start it through command line
+
+C:\AEM> - java -Xmx1024m -jar AEM_6.3_Quickstart.jar
+
+First time it will take some time around to start the AEM.  After it is started you can see your AEM author is running on localhost:4502
+
+Please enter user name admin and password admin.
+
+
+
+Step 2 -  Build and deploy the project to a local AEM instance. From the command line, within the "aem-guides-wknd-events" directory run the following command
+
+C:\aem-react-int\start\start> mvn clean install -PautoInstallPackage
+
+The above command will deploy the project to AEM running on http://localhost:4502/. After deployment cross-check the packages are getting installed properly on http://localhost:4502/crx/packmgr/index.jsp.
+
+you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
+
+
+
+Step 3 - The ui.content module includes two templates as part of the starter project. Inspect the templates by navigating to:
+
+ http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events
+
+
+
+Step 4 – The React App
+
+Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want.
+
+Create react app - Navigate to project folder and run below command
+npx create-react-app my-app
+
+Run the react app –
+npm start
+
+c:\aem-react-int\start\start\react-aem>npm start 
+
+                This command will launch the react app on local server http://localhost:3000/
+
+ 
+
+To achieve this integration two tools will be used:
+
+aem-clientlib-generator - used to transform compiled CSS and JS files into an AEM client library
+frontend-maven-plugin - used to trigger NPM commands via a Maven build.
+
+
+Step 5 -  Configure aem-clientlibs-generator
+
+Build a production distribution of the app –
+Stop the running server using Ctrl+c and run below command
+
+c:\aem-react-int\start\start\react-aem>npm run build
+
+
+
+Install the aem-clientlib-generator using Node npm
+c:\aem-react-int\start\start\react-aem>npm install aem-clientlib-generator --save-dev
+
+Now that package.json has been updated with the dev dependencies for aem-clientlib-generator.
+
+{
+
+//other dependencies  
+
+"devDependencies": {
+
+    "aem-clientlib-generator": "^1.7.1"
+
+  }
+
+}
+
+Create a new file in react-aem folder named clientlib.config.js.
+clientlib.config.js-
+
+
+
+module.exports = {
+
+    // default working directory (can be changed per 'cwd' in every asset option)
+
+    context: __dirname,
+
+
+
+    // path to the clientlib root folder (output)
+
+    clientLibRoot: "./../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs",
+
+
+
+    libs: {
+
+        name: "react-aem",
+
+        allowProxy: true,
+
+        categories: ["wknd-events.react"],
+
+        serializationFormat: "xml",
+
+        jsProcessor: ["min:gcc"],
+
+        assets: {
+
+            js: [
+
+                "build/static/**/*.js"
+
+            ],
+
+            css: [
+
+                "build/static/**/*.css"
+
+            ]
+
+        }
+
+    }
+
+};
+
+
+
+This file directs the aem-clientlib-generator to create a client library in the ui.apps module under /apps/wknd-events/clientlibs filder in AEM. The client library will have a category of wknd-events.react and will include any files with an extension of .js and .css ubder the react-app/build/static folder.
+
+Add the clientlib directive as part of the npm run build script by updating react-app/package.json file with the following line:
+package.json-
+
+"scripts": {
+
+    "start": "react-scripts start",
+
+    "build": "react-scripts build && clientlib --verbose",
+
+    "test": "react-scripts test",
+
+    "eject": "react-scripts eject"
+
+  },
+
+Test out the changes by running the following command:
+
+
+After executing command you should have “react-aem” named folder inside of “/ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/”
+
+Directory on your local AEM instance .
+
+
+
+Then you can go ahead and deploy the same to AEM by below command
+
+C:\aem-react-int\start\start> mvn clean install -PautoInstallPackage
+
+Now until this, whenever you will do any changes in your react-aem app you have to run the build command (npm run build) and then deploy the updated react-aem app to AEM by  “mvn clean install -PautoInstallPackage”.
+
+
+
+Step 6 -
+
+To Automate above steps you have to configure your front-end with maven as follows –
+
+Note – Because of some proxy issue. I am not able to automate above process. I will cover this automation part in my next document.
+
+
+
+Step  7 - Integrate the React app on the Page
+
+Open the “ui-apps” folder for edit, you need to make below changes in respective files located “/apps/wknd-events/components/structure/page”
+
+Open file “customheaderlibs.html.” and replace below code with existing one
+
+
+<!--/*
+
+Custom Headerlibs for React Site
+
+*/-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="cq:datatype" data-sly-test="${wcmmode.edit || wcmmode.preview}" content="JSON"/>
+
+<meta property="cq:wcmmode" data-sly-test="${wcmmode.edit}" content="edit"/>
+
+<meta property="cq:wcmmode" data-sly-test="${wcmmode.preview}" content="preview"/>
+
+<meta property="cq:pagemodel_root_url"
+
+    data-sly-use.page="com.adobe.aem.guides.wkndevents.core.models.HierarchyPage"
+
+    content="${page.rootUrl}"/>
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+
+<sly data-sly-call="${clientlib.css @ categories='wknd-events.react'}"/>
+
+
+
+Open file “customfooterlibs.html” and replace below code with existing one
+
+
+<!--/*
+
+Custom footer React libs
+
+*/-->
+
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"></sly>
+
+<sly data-sly-test="${wcmmode.edit || wcmmode.preview}"
+
+    data-sly-call="${clientLib.js @ categories='cq.authoring.pagemodel.messaging'}"></sly>
+
+<sly data-sly-call="${clientLib.js @ categories='wknd-events.react'}"></sly>
+
+
+
+Create a new file named “body.html” and add below code
+
+
+<!--/*
+
+- body.html
+
+- includes div that will be targeted by SPA
+
+*/-->
+
+<div id="root"></div>
+
+Above code will insert the DOM element that the React application is targeting. You can see in the code /aem-guides-wknd-events/react-app/src/index.js.
+
+
+
+Step 8 - Deploy the changes to AEM
+
+Finally deploy the changes by running below command
+
+C:\aem-react-int\start\start> mvn clean install -PautoInstallPackage
+
+
+
+Step 9 - Navigate to http://localhost:4502/editor.html/content/wknd-events/react/home.html
+
+You should now see the React application being rendered on the AEM page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
